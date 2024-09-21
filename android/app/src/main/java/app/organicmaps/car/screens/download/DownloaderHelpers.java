@@ -16,7 +16,7 @@ public final class DownloaderHelpers
 {
   static final String[] WORLD_MAPS = new String[]{"World", "WorldCoasts"};
 
-  // World maps may be missing only in the F-Droid build.
+  // World Overviews may be missing only in the F-Droid build.
   @SuppressWarnings("ConstantConditions")
   public static boolean isWorldMapsDownloadNeeded()
   {
